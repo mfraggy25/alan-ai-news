@@ -7,9 +7,9 @@ import NewsCard from "./NewsCard/NewsCard";
 //Content on info cards
 const infoCards = [
     { color: '#00838f', title: 'LATEST NEWS', text: 'Give me the latest news' },
-    { color: '#1565c0', title: 'NEWS BY CATEGORIES', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
+    { color: '#1565c0', title: 'NEWS BY CATEGORIES', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Entertainment news' },
     { color: '#4527a0', title: 'NEWS BY TERMS', info: 'Bitcoin, PlayStation 5, Smartphones, NBA, COVID-19...', text: 'What\'s up with PlayStation 5' },
-    { color: '#283593', title: 'NEWS BY SOURCES', info: 'CNN, CBC News, MTV News, Wired, BBC News, Time, IGN, Buzzfeed...', text: 'Give me the news from CNN' },
+    { color: '#283593', title: 'NEWS BY SOURCES', info: 'CNN, CBC News, MTV News, Wired, BBC News, Time, IGN, Buzzfeed...', text: 'Give me the news from Time' },
   ];
 
 const NewsCards = ({articles, activeArticle}) => {
